@@ -19,7 +19,6 @@
     </dependency>
   </dependencies>
 
-  <!-- Add build section with maven-jar-plugin configuration -->
   <build>
     <plugins>
       <plugin>
@@ -29,7 +28,7 @@
         <configuration>
           <archive>
             <manifestEntries>
-              <Main-Class>com.example.App</Main-Class> <!-- Update with your actual main class -->
+              <Main-Class>com.example.App</Main-Class> 
             </manifestEntries>
           </archive>
         </configuration>
